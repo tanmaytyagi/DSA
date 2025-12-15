@@ -1,0 +1,62 @@
+1. Big O Notation :
+-------------------
+
+Big O is a notation used to describe the "computational complexity" of an algorithm.
+
+Time Complexity : it is the amount of time the algorithm needs to run relative to the input size.
+
+Space Complexity : it is the amount of memory used by the algorithm relative to the input size.
+
+Big O Sheet : https://www.bigocheatsheet.com/
+
+
+--------------------------------------------------------------------------------------------
+
+
+2. Subarrays/substrings, subsequences, and subsets :
+----------------------------------------------------
+
+a. Subarrays/substrings : it is a contiguous section of an array or string.
+
+b. Subsequence : it is a set of elements of an array/string that keeps the same relative order but doesn't need to be contiguous.
+
+c. Subsets : it is any set of elements from the original array or string (order doesn't matter).
+
+
+--------------------------------------------------------------------------------------------
+
+3. top down and bottom up approach in Dynamic programming :
+
+top down : recursive (start from bigger problem and break into smaller pieces)
+bottom up : iterative (start from smaller and build up to bigger required problem)
+
+
+--------------------------------------------------------------------------------------------
+
+Tricky Problems :
+-----------------
+
+1. https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/description/
+
+--------------------------------------------------------------------------------------------
+
+DP vs Greedy :
+
+If future decisions affect current best choice -> Use DP
+If a local best choice guarantees global best -> Use Greedy
+
+--------------------------------------------------------------------------------------------
+
+For DSA problems, we usually analyze performance using time and space complexity.
+In production systems we might use benchmarking tools like JMH (Java Microbenchmark Harness),
+but for interviews and problem-solving, asymptotic analysis and input scaling are sufficient
+
+--------------------------------------------------------------------------------------------
+
+Number Theory :
+
+This number theory is much more oriented towards Prime numbers, GCDs, LCMs.
+Prime Numbers Note: Do study about O(sqrt(n)) and O(log(n)) factorization of some number n.
+Theory: 1.  Sieve of Eratosthenes
+
+--------------------------------------------------------------------------------------------

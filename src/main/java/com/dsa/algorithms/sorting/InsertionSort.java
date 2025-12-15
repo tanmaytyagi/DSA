@@ -5,6 +5,8 @@ import java.util.Arrays;
 /**
  * Build the sorted array one element at a time
  * by inserting each element into its correct position in the already sorted part.
+ * @Time - O(n^2)
+ * @Space - O(1)
  */
 public class InsertionSort {
 

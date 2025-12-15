@@ -5,6 +5,8 @@ import java.util.Arrays;
 /**
  * Perform forward iteration from each element,
  * in each iteration pick the smallest and save it inplace of that elem by swapping
+ * @Time - O(n^2)
+ * @Space - O(1)
  */
 public class SelectionSort {
 

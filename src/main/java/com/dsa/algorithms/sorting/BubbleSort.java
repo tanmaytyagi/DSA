@@ -5,6 +5,8 @@ import java.util.Arrays;
 /**
  * swap adjacent elements of the array until the largest one reaches at the last index,
  * repeat the process for remaining element again
+ * @Time - O(n^2)
+ * @Space - O(1)
  */
 public class BubbleSort {
 

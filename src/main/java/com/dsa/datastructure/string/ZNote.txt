@@ -1,0 +1,19 @@
+String Class :
+
+- String is a final, immutable, sequence of characters (thus thread safe)
+- stored internally as :
+    char[] value; -> Java 8 and below
+    byte[] value; -> Java 9+  (Saves memory for ASCII-heavy strings)
+
+NOTE : String literals are stored in the String Constant Pool and reused for memory efficiency.
+
+String a = "hello";                 // creates/reuse the same literal from the SCP
+String b = new String("hello");     // creates object in heap + create/resue one from SCP
+
+char[] arr = {'h','e','l','l','o'};
+String s = new String(arr);
+
+🔑 Golden Rule (Remember This First)
+
+Only string literals go into the String Constant Pool automatically.
+Any new String(...) call always creates a heap object.

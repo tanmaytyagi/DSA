@@ -1,14 +1,15 @@
-package com.dsa.datastructure.linkedlist;
+package com.dsa.algorithms.LinkedList;
 
-import com.dsa.util.CommonMethods;
 import com.dsa.util.ListNode;
+
+import static com.dsa.util.CommonMethods.generateLinkedList;
 
 public class MidPointOfLinkedList {
 
     public static ListNode midPointOfTheLinkedList(ListNode head) {
         if (head == null || head.next == null) return head;
         ListNode slow = head;
-        ListNode fast = head.next;
+        ListNode fast = head;
         while(fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
@@ -17,7 +18,7 @@ public class MidPointOfLinkedList {
     }
 
     public static void main(String[] args) {
-        ListNode head = CommonMethods.generateLinkedList(new int[]{1, 2, 3, 4, 5, 6});
+        ListNode head = generateLinkedList(new int[]{1, 2, 3, 4, 5, 6});
         head =  midPointOfTheLinkedList(head);
         System.out.println(head.val);
     }

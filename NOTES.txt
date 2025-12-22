@@ -76,7 +76,16 @@ Fast and Slow Pointer : (Pattern)
 
 --------------------------------------------------------------------------------------------
 
+Sliding Window : (Pattern)
+----------------
 
+- The sliding window pattern is a technique for efficiently processing sequential data.
+- variation of the two-pointer approach, where the pointers define the window’s start and end
 
+the sliding window can be of a fixed size or dynamic :
 
+1. fixed-size window is used when the window size is given or constant
+2. dynamic window is used when the window size changes based on conditions
+
+--------------------------------------------------------------------------------------------
 

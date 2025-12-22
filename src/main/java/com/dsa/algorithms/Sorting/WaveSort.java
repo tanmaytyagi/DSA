@@ -1,4 +1,4 @@
-package com.dsa.algorithms.sorting;
+package com.dsa.algorithms.Sorting;
 
 import java.util.Arrays;
 import static com.dsa.util.CommonMethods.swap;

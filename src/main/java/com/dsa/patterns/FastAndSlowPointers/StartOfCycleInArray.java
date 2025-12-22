@@ -4,7 +4,7 @@ package com.dsa.patterns.FastAndSlowPointers;
  * arr contains numbers in range [1, n], with length n + 1.
  * only one number in array appears more than once, find that.
  */
-public class FindDuplicateInArray {
+public class StartOfCycleInArray {
 
     public static int findDuplicate(int[] arr) {
         int slow = arr[0];

@@ -8,8 +8,8 @@ class FindDuplicateInArrayTest {
 
     @Test
     void validTestCases() {
-        assertEquals(1, FindDuplicateInArray.findDuplicate(new int[]{1, 2, 3, 1}));
-        assertEquals(2, FindDuplicateInArray.findDuplicate(new int[]{1, 2, 2, 2}));
-        assertEquals(3, FindDuplicateInArray.findDuplicate(new int[]{3, 2, 3, 1, 5}));
+        assertEquals(1, StartOfCycleInArray.findDuplicate(new int[]{1, 2, 3, 1}));
+        assertEquals(2, StartOfCycleInArray.findDuplicate(new int[]{1, 2, 2, 2}));
+        assertEquals(3, StartOfCycleInArray.findDuplicate(new int[]{3, 2, 3, 1, 5}));
     }
 }

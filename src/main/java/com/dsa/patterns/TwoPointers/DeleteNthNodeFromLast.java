@@ -30,19 +30,10 @@ public class DeleteNthNodeFromLast {
         return head;
     }
 
-    private static void printList(ListNode head) {
-        while (head != null) {
-            System.out.print(head.val + "->");
-            head = head.next;
-        }
-        System.out.print("null");
-        System.out.println();
-    }
-
     public static void main(String[] args) {
         ListNode head = CommonMethods.generateLinkedList(new int[]{1, 2, 3, 4, 5});
-        printList(head);
+        CommonMethods.printLinkedList(head);
         head = removeNthLastNode(head, 3);
-        printList(head);
+        CommonMethods.printLinkedList(head);
     }
 }

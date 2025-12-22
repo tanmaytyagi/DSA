@@ -1,7 +1,9 @@
-package com.dsa.datastructure.linkedlist;
+package com.dsa.algorithms.LinkedList;
 
-import com.dsa.util.CommonMethods;
 import com.dsa.util.ListNode;
+
+import static com.dsa.util.CommonMethods.generateLinkedList;
+import static com.dsa.util.CommonMethods.printLinkedList;
 
 public class ReverseLinkedList {
 
@@ -18,16 +20,8 @@ public class ReverseLinkedList {
         return prev;
     }
 
-    public static void printLinkedList(ListNode head) {
-        while(head != null) {
-            System.out.print(head.val + " -> ");
-            head = head.next;
-        }
-        System.out.println("null");
-    }
-
     public static void main(String[] args) {
-        ListNode head = CommonMethods.generateLinkedList(new int[]{1, 2, 3, 4, 5});
+        ListNode head = generateLinkedList(new int[]{1, 2, 3, 4, 5});
         printLinkedList(head);
         head = reverse(head);
         printLinkedList(head);

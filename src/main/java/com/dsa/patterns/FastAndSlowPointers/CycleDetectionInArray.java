@@ -8,25 +8,24 @@ public class CycleDetectionInArray {
 
         for(int i = 0 ; i < n ; i++) {
             if(a[i] == 0) continue;
-
             int slow = i;
             int fast = i;
-            slow = nextIndex(slow, a[slow], n);
-            fast = nextIndex(fast, a[fast], n);
-            fast = nextIndex(fast, a[fast], n);
+
             if(a[i] > 0) {
                 while(a[slow] != 0 && a[fast] != 0 && a[slow] > 0 && a[fast] > 0) {
-                    if(slow == fast) return true;
                     slow = nextIndex(slow, a[slow], n);
                     fast = nextIndex(fast, a[fast], n);
+                    if(a[fast] <= 0) break;
                     fast = nextIndex(fast, a[fast], n);
+                    if(slow == fast) return true;
                 }
             } else {
                 while(a[slow] != 0 && a[fast] != 0 && a[slow] < 0 && a[fast] < 0) {
-                    if(slow == fast) return true;
                     slow = nextIndex(slow, a[slow], n);
                     fast = nextIndex(fast, a[fast], n);
+                    if(a[fast] >= 0) break;
                     fast = nextIndex(fast, a[fast], n);
+                    if(slow == fast) return true;
                 }
             }
         }
@@ -37,18 +36,18 @@ public class CycleDetectionInArray {
     public static int nextIndex(int currIdx, int value, int size) {
         if(value > 0) {
             currIdx += value;
-            return currIdx % size;
         } else {
             int x = size + value;
             currIdx += x;
-            return currIdx % size;
         }
+        return currIdx % size;
     }
 
     public static void main(String[] args) {
         int[] arr1 = {-2, -3, 1, -3, 2};
         int[] arr2 = {1, 4, 3, 2, 1};
         int[] arr3 = {2, 5, -4, 3, -1, 4};
-        System.out.println(circularArrayLoop(arr3));
+        int[] arr4 = {1,1,1,1,1,1,1,1,1,-5};
+        System.out.println(circularArrayLoop(arr4));
     }
 }

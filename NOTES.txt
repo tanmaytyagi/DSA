@@ -89,3 +89,22 @@ the sliding window can be of a fixed size or dynamic :
 
 --------------------------------------------------------------------------------------------
 
+Intervals : (Pattern)
+-----------
+
+This pattern is widely used in scheduling, managing resources, and timelines.
+By analyzing how intervals interact, we can:
+
+- Merge overlapping intervals into one.
+- Insert a new interval into the correct place.
+- Find intersections between intervals.
+- Detect gaps to identify free time.
+- Measure coverage or resource usage.
+
+When working with multiple intervals, they can relate to each other in a few key ways:
+
+- Nonoverlapping    [1,3] and [5,8]
+- Overlapping       [1,4] and [3,6]
+- Contained         [1,8] and [2,5]
+
+--------------------------------------------------------------------------------------------

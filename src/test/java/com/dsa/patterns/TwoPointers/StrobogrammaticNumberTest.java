@@ -1,5 +1,6 @@
 package com.dsa.patterns.TwoPointers;
 
+import com.dsa.algorithms.TwoPointers.StrobogrammaticNumber;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

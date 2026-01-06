@@ -1,4 +1,4 @@
-package com.dsa.patterns.TwoPointers;
+package com.dsa.algorithms.TwoPointers;
 
 /**
  * Given a string, s, return TRUE if it is a palindrome; otherwise, return FALSE.<br>

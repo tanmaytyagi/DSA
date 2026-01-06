@@ -1,4 +1,4 @@
-package com.dsa.patterns.TwoPointers;
+package com.dsa.algorithms.TwoPointers;
 
 import com.dsa.util.CommonMethods;
 import com.dsa.util.ListNode;

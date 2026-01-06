@@ -1,4 +1,4 @@
-package com.dsa.patterns.FastAndSlowPointers;
+package com.dsa.algorithms.Arrays;
 
 public class IsSumOfSquareOfDigitsConvergesToOne {
 

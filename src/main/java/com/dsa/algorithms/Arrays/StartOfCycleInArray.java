@@ -1,4 +1,4 @@
-package com.dsa.patterns.FastAndSlowPointers;
+package com.dsa.algorithms.Arrays;
 
 /**
  * arr contains numbers in range [1, n], with length n + 1.

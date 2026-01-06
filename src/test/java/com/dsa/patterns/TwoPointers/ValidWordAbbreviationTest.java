@@ -1,6 +1,8 @@
 package com.dsa.patterns.TwoPointers;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+import com.dsa.algorithms.TwoPointers.ValidWordAbbreviation;
 import org.junit.jupiter.api.Test;
 
 public class ValidWordAbbreviationTest {

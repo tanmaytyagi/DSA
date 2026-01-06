@@ -1,4 +1,4 @@
-package com.dsa.patterns.Intervals;
+package com.dsa.algorithms.Intervals;
 
 import java.util.ArrayList;
 import java.util.Arrays;

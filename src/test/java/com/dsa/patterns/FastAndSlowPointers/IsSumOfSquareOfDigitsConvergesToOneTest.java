@@ -1,6 +1,6 @@
 package com.dsa.patterns.FastAndSlowPointers;
 
-import com.dsa.algorithms.Arrays.IsSumOfSquareOfDigitsConvergesToOne;
+import com.dsa.algorithms.Arrays.CyclicArray.IsSumOfSquareOfDigitsConvergesToOne;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

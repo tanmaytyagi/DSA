@@ -2,7 +2,7 @@ package com.dsa.algorithms.Sorting;
 
 import java.util.Arrays;
 
-import static com.dsa.util.CommonMethods.swap;
+import static com.dsa.util.ArrayUtil.swap;
 
 public class QuickSort {
 

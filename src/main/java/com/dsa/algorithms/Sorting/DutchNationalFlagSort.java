@@ -1,7 +1,7 @@
 package com.dsa.algorithms.Sorting;
 
 import java.util.Arrays;
-import static com.dsa.util.CommonMethods.swap;
+import static com.dsa.util.ArrayUtil.swap;
 
 /**
  * Dutch National Flag Algo : sort array containing only 0s, 1s and 2s

@@ -1,8 +1,7 @@
 package com.dsa.algorithms.LinkedList;
 
-import com.dsa.util.ListNode;
-
-import static com.dsa.util.CommonMethods.generateLinkedList;
+import com.dsa.util.LinkedListUtil.ListNode;
+import static com.dsa.util.LinkedListUtil.generateLinkedList;
 
 public class CycleDetectionInLinkedList {
 

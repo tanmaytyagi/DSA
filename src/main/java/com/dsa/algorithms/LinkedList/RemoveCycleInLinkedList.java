@@ -1,11 +1,12 @@
 package com.dsa.algorithms.LinkedList;
 
-import com.dsa.util.ListNode;
+import com.dsa.util.LinkedListUtil.ListNode;
+import static com.dsa.util.LinkedListUtil.generateLinkedList;
+import static com.dsa.util.LinkedListUtil.printLinkedList;
 
 import static com.dsa.algorithms.LinkedList.CycleDetectionInLinkedList.hasCycle;
 import static com.dsa.algorithms.LinkedList.FindStartingPointOfCycle.findStartingPointOfCycle;
-import static com.dsa.util.CommonMethods.generateLinkedList;
-import static com.dsa.util.CommonMethods.printLinkedList;
+
 
 public class RemoveCycleInLinkedList {
 
@@ -26,7 +27,6 @@ public class RemoveCycleInLinkedList {
         ListNode right = head.next.next.next.next.next;
         right.next = left;
         printLinkedList(head);
-        head = removeCycle(head);
-        printLinkedList(head);
+        printLinkedList(removeCycle(head));
     }
 }

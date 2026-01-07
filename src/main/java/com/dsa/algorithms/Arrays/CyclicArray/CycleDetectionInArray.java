@@ -1,4 +1,4 @@
-package com.dsa.algorithms.Arrays;
+package com.dsa.algorithms.Arrays.CyclicArray;
 
 public class CycleDetectionInArray {
 

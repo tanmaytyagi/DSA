@@ -1,4 +1,4 @@
-package com.dsa.algorithms.TwoPointers;
+package com.dsa.algorithms.Arrays.TwoPointers;
 
 import java.util.HashMap;
 import java.util.Map;

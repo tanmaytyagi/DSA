@@ -1,9 +1,9 @@
 package com.dsa.algorithms.LinkedList;
 
-import com.dsa.util.ListNode;
+import com.dsa.util.LinkedListUtil.ListNode;
 
-import static com.dsa.util.CommonMethods.generateLinkedList;
-import static com.dsa.util.CommonMethods.printLinkedList;
+import static com.dsa.util.LinkedListUtil.generateLinkedList;
+import static com.dsa.util.LinkedListUtil.printLinkedList;
 
 public class ReverseLinkedList {
 

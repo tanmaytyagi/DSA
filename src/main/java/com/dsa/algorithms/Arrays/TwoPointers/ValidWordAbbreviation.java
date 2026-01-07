@@ -1,4 +1,4 @@
-package com.dsa.algorithms.TwoPointers;
+package com.dsa.algorithms.Arrays.TwoPointers;
 
 /**
  * "cal3ar" and "calendar" are valid word abbreviation, whereas

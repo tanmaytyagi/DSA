@@ -1,7 +1,9 @@
-package com.dsa.algorithms.TwoPointers;
+package com.dsa.algorithms.Arrays.TwoPointers;
 
-import com.dsa.util.CommonMethods;
-import com.dsa.util.ListNode;
+import com.dsa.util.LinkedListUtil.ListNode;
+
+import static com.dsa.util.LinkedListUtil.generateLinkedList;
+import static com.dsa.util.LinkedListUtil.printLinkedList;
 
 /**
  * Given the head of a singly linked list and an integer n,
@@ -31,9 +33,9 @@ public class DeleteNthNodeFromLast {
     }
 
     public static void main(String[] args) {
-        ListNode head = CommonMethods.generateLinkedList(new int[]{1, 2, 3, 4, 5});
-        CommonMethods.printLinkedList(head);
+        ListNode head = generateLinkedList(new int[]{1, 2, 3, 4, 5});
+        printLinkedList(head);
         head = removeNthLastNode(head, 3);
-        CommonMethods.printLinkedList(head);
+        printLinkedList(head);
     }
 }

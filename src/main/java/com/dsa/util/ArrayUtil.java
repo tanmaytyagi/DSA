@@ -4,7 +4,19 @@ import java.util.Comparator;
 
 
 @SuppressWarnings("all")
-public class ArrayUtils {
+public class ArrayUtil {
+
+    // ================== IMPL METHODS FOR ARRAY ==================
+    public static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+
+    public static void reverse(int[] arr, int i, int j) {
+        while (i < j) swap(arr, i++, j--);
+    }
+
 
     public static void main(String[] args) {
 

@@ -1,4 +1,4 @@
-package com.dsa.algorithms.Arrays;
+package com.dsa.algorithms.Arrays.CyclicArray;
 
 /**
  * arr contains numbers in range [1, n], with length n + 1.

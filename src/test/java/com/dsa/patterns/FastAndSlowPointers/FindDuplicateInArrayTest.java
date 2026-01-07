@@ -1,6 +1,6 @@
 package com.dsa.patterns.FastAndSlowPointers;
 
-import com.dsa.algorithms.Arrays.StartOfCycleInArray;
+import com.dsa.algorithms.Arrays.CyclicArray.StartOfCycleInArray;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

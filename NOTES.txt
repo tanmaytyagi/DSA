@@ -108,3 +108,38 @@ When working with multiple intervals, they can relate to each other in a few key
 - Contained         [1,8] and [2,5]
 
 --------------------------------------------------------------------------------------------
+
+Comparable vs Comparator (Core Idea) :
+--------------------------------------
+
+🔹 Comparable → Natural ordering
+	•	Implemented by the class itself
+	•	Method: compareTo()
+	•	Used when objects have one obvious sorting logic
+
+class Student implements Comparable<Student> {
+    int marks;
+    public int compareTo(Student other) {
+        return this.marks - other.marks;   // ascending
+    }
+}
+
+🔹 Comparator → Custom / multiple orderings
+	•	Separate class or lambda
+	•	Method: compare()
+	•	Used when:
+	    •	Multiple sorting criteria
+	    •	You cannot modify the class (e.g., library classes)
+
+Comparator<Student> byMarksDesc = (a, b) -> b.marks - a.marks;
+
+📌 How comparison works internally : (for both)
+
+Return value           Meaning
+< 0                 a comes before b
+  0                 equal
+> 0                 a comes after b
+
+
+NOTE : Prefer Comparator over Comparable unless the ordering is fundamental to the object.
+--------------------------------------------------------------------------------------------

@@ -1,6 +1,5 @@
 package com.dsa.util;
-import java.util.Arrays;
-import java.util.Comparator;
+import java.util.*;
 
 
 @SuppressWarnings("all")
@@ -85,5 +84,45 @@ public class ArrayUtil {
 
         // print nested array
         System.out.println(Arrays.deepToString(c0));
+
+
+
+
+
+        // ================== FOR DYNAMIC ARRAYS ==================
+
+        List<Integer> d0 = new ArrayList<>();
+
+        // add an element to last
+        d0.add(10);             // O(1) amortized
+
+        // remove an element from last
+        d0.removeLast();        // O(1)
+
+        // fetch an element
+        int x = d0.get(0);      // O(1)
+
+        // set an element
+        d0.set(0, 99);          // O(1)
+
+        // get the size of the dynamic array
+        int len = d0.size();    // O(1)
+
+        // check if the dynamic array is empty
+        boolean isEmpty = d0.isEmpty();     // O(1)
+
+        // enhanced for loop in dynamic array
+        for (int val : d0) {
+            System.out.println(d0.get(val));
+        }
+
+        // Collection util to sort a dynamic array
+        d0.sort((a, b) -> a - b);
+
+        // search in a dynamic array
+        int index = Collections.binarySearch(d0, 9);
+
+        // convert ArrayList to Array
+        Integer[] arr = d0.toArray(new Integer[0]);
     }
 }

@@ -1,9 +1,9 @@
 package com.dsa.algorithms.Arrays.TwoPointers;
 
-import com.dsa.util.LinkedListUtil.ListNode;
+import com.dsa.algorithms.LinkedList.LinkedListUtil.ListNode;
 
-import static com.dsa.util.LinkedListUtil.generateLinkedList;
-import static com.dsa.util.LinkedListUtil.printLinkedList;
+import static com.dsa.algorithms.LinkedList.LinkedListUtil.generateLinkedList;
+import static com.dsa.algorithms.LinkedList.LinkedListUtil.printLinkedList;
 
 /**
  * Given the head of a singly linked list and an integer n,

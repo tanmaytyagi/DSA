@@ -1,7 +1,7 @@
 package com.dsa.algorithms.LinkedList;
 
-import com.dsa.util.LinkedListUtil.ListNode;
-import static com.dsa.util.LinkedListUtil.generateLinkedList;
+import com.dsa.algorithms.LinkedList.LinkedListUtil.ListNode;
+import static com.dsa.algorithms.LinkedList.LinkedListUtil.generateLinkedList;
 
 public class FindStartingPointOfCycle {
 

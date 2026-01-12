@@ -1,8 +1,8 @@
 package com.dsa.algorithms.LinkedList;
 
-import com.dsa.util.LinkedListUtil.ListNode;
-import static com.dsa.util.LinkedListUtil.generateLinkedList;
-import static com.dsa.util.LinkedListUtil.printLinkedList;
+import com.dsa.algorithms.LinkedList.LinkedListUtil.ListNode;
+import static com.dsa.algorithms.LinkedList.LinkedListUtil.generateLinkedList;
+import static com.dsa.algorithms.LinkedList.LinkedListUtil.printLinkedList;
 
 import static com.dsa.algorithms.LinkedList.CycleDetectionInLinkedList.hasCycle;
 import static com.dsa.algorithms.LinkedList.FindStartingPointOfCycle.findStartingPointOfCycle;

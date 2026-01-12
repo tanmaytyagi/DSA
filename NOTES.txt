@@ -143,3 +143,9 @@ Return value           Meaning
 
 NOTE : Prefer Comparator over Comparable unless the ordering is fundamental to the object.
 --------------------------------------------------------------------------------------------
+
+Longest common subsequence algorithm used in Foundational model evaluation in GenAI
+
+KNN - K nearest neighbour algo used in Amazon OpenSearch service for RAG vector database
+
+Create a web crawler - LLD (used on RAG knowledge base in Amazon bedrock

@@ -1,4 +1,4 @@
-package com.dsa.util;
+package com.dsa.algorithms.LinkedList;
 
 public class LinkedListUtil {
 

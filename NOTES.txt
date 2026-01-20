@@ -149,3 +149,94 @@ Longest common subsequence algorithm used in Foundational model evaluation in Ge
 KNN - K nearest neighbour algo used in Amazon OpenSearch service for RAG vector database
 
 Create a web crawler - LLD (used on RAG knowledge base in Amazon bedrock
+
+--------------------------------------------------------------------------------------------
+
+# GRAPH :
+
+- graph is a non liner data structure that represents connections between entities
+
+Let’s go over some basic components and common properties of graphs :
+
+1. Vertex : it is the fundamental unit of a graph, usually represented as a point that holds some information or data.
+2. Edge : it is a connection between two nodes, an edge may have a direction (directed edge) or not (undirected edge)
+3. Weight : each edge has a weight assigned to it, which indicates a cost or value associated with a connection
+4. Degree : it is a number of edges associated to a node
+5. In-degree : it is number of edges coming towards the node (in directed graph only)
+6. Out-degree : it is number of edges going out from the node (in directed graph only)
+7. Adjacent nodes : nodes that are directly connected to each other by an edge
+8. Path : it is sequence of nodes where each adjacent pair is connected by an edge
+9. Cycle : it is a path that starts and ends on the same node
+
+- Types of graphs :
+
+    1. Undirected graph
+    2. Directed graph
+    3. Weighted graph
+    4. Cyclic graph
+    5. Acyclic graph
+
+- Graph representation :
+
+1. Adjacency list :
+A collection of lists, where each list corresponds to a node and contains its neighbors
+In case of weighted graph, the weight is stored along with the corresponding node
+
+2. Adjacency matrix :
+A 2D array where each cell, matrix[i][j], represents the edge between nodes i and node j.
+The value of matric[i][j] equals 1/0 (has edge) or the weight in case of weighted graph.
+
+
+- Graph traversals :
+
+1. Depth-first search (DFS)
+
+DFS, the strategy is to explore as far as possible along one path before turning back.
+The algorithm starts with a chosen source node and proceeds to one of its neighbor nodes while marking the source node as visited.
+From there, it goes to one of its neighbors and marks this newly traversed node as visited.
+This continues until it reaches a node with no neighbors. Now, the algorithm starts backtracking.
+In backtracking, the algorithm goes one step back and checks for the remaining neighbor nodes that are yet to be explored.
+This process continues until all the nodes in the graph, that are reachable from the source node, have been visited.
+
+2. Breadth-first search (BFS)
+
+In BFS, the strategy is to explore the graph in layers, one level at a time
+The algorithm begins at a chosen source node and visits all its immediate neighbor nodes while marking them as visited
+It then moves on to visit the neighbors of those nodes before proceeding to the next level of neighbors.
+This process continues until all the nodes in the graph, that are reachable from the source node, have been visited.
+
+
+- Graph Algorithms :
+
+1. Dijkstra’s algorithm: It’s a variation of DFS and finds the shortest path between two nodes in a weighted graph.
+
+2. Bellman-Ford algorithm: It’s a variation of BFS and finds the shortest paths in a weighted graph, even when negative edge weights are present.
+
+3. Floyd-Warshall algorithm: It’s a variation of BFS and finds the shortest paths between all pairs of nodes in a weighted graph.
+
+4. Topological sorting: It’s similar to DFS and orders nodes in a directed acyclic graph (DAG) to satisfy dependencies.
+
+5. Prim’s algorithm: It finds the minimum spanning tree of a connected, undirected graph.
+
+6. Kruskal’s algorithm: It also finds the minimum spanning tree of a connected, undirected graph.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

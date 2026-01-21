@@ -5,6 +5,7 @@ import com.dsa.algorithms.Graph.Vertex.Vertex;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
+@SuppressWarnings("all")
 public class BreadthFirstSearch {
 
     public static void bsf(Vertex root) {

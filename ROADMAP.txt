@@ -1,0 +1,321 @@
+PHASE 0 — INTERVIEW MINDSET & PROCESS (Foundation) :
+----------------------------------------------------
+- Covers:
+  	•	How to approach interview questions
+  	•	How to communicate thinking
+  	•	How to clarify requirements
+
+- Asking about:
+  	•	Input constraints
+  	•	Data types
+  	•	Edge cases
+  	•	Read/write ratio
+
+- Explaining:
+  	•	Assumptions
+  	•	Time & space complexity
+
+- Writing test cases
+
+
+PHASE 1 — CORE DSA PATTERNS (High ROI) :
+----------------------------------------
+
+1️⃣ Dynamic Programming (Very heavy in file) ⭐⭐⭐⭐⭐
+
+Subtopics:
+	•	Top-down (memoization)
+	•	Bottom-up (tabulation)
+	•	1D / 2D / 3D DP
+	•	DP with bitmasking
+	•	DP optimization (1D instead of 2D)
+
+Question Types:
+	•	Fibonacci / Climbing Stairs
+	•	0/1 Knapsack
+	•	Unbounded Knapsack
+	•	Coin Change (count ways vs min coins) (all variants)
+	•	Partition DP
+	•	House Robber I / III
+	•	LIS / LDS
+	•	LCS / Edit Distance
+	•	Edit Distance
+	•	Burst Balloons
+	•	Merge Stones
+
+	•	1D DP optimization
+	•	2D → 1D optimization
+	•	3D DP (Burst Balloons, Merge Stones)
+	•	DP with Bitmasking
+	•	TSP (Traveling Salesman)
+	•	Stickers to Spell Word
+	•	Painting the Walls
+	•	Maximum Value of K Coins
+	•	Cherry Pickup II
+
+
+2️⃣ Greedy Algorithms ⭐⭐⭐⭐
+
+Subtypes:
+	•	Pure greedy
+	•	Greedy + sorting
+	•	Greedy + heap
+
+Questions:
+	•	Activity Selection
+	•	Fractional Knapsack
+	•	Stock Buy/Sell (all variants)
+	•	Jump Game II / V / VI / VII
+	•	Event scheduling
+	•	Huffman coding
+	•	Gas Station
+
+
+3️⃣ Prefix Sum + Difference Array ⭐⭐⭐⭐
+
+Questions:
+	•	Subarray sum equals K
+	•	Shortest subarray with sum ≥ K
+	•	Range sum queries
+	•	Meeting Rooms II
+	•	My Calendar II
+	•	Vowels of All Substrings
+	•	Maximum Sum Rectangle (2D prefix)
+
+
+4️⃣ Two Pointers / Sliding Window ⭐⭐⭐⭐⭐
+
+Patterns:
+	•	Same direction
+	•	Opposite direction
+	•	Fixed sliding window
+	•	Variable sliding window
+
+Questions:
+	•	Two Sum (sorted)
+	•	Longest substring without repeating character
+	•	3Sum
+	•	Container with most water
+	•	Permutation in string
+	•	Kadane’s Algorithm
+	•	Rolling Hash (Repeated DNA)
+
+
+PHASE 2 — STACK / QUEUE SPECIALIZATION :
+----------------------------------------
+
+5️⃣ Monotonic Stack
+
+Questions:
+	•	Next Greater Element
+	•	Largest Rectangle in Histogram
+	•	Car Fleet
+	•	Longest Valid Parentheses
+
+
+6️⃣ Monotonic Queue (Deque mastery)
+
+Questions:
+	•	Sliding Window Maximum
+	•	Shortest subarray ≥ K
+
+
+PHASE 3 — SEARCH & RECURSION :
+------------------------------
+
+7️⃣ Binary Search (Very strong coverage)
+
+Variants:
+	•	On answer
+	•	Lower / upper bound
+	•	Rotated array
+	•	Matrix binary search
+
+Questions:
+	•	Koko Eating Bananas
+	•	Split Array Largest Sum
+	•	Kth smallest in matrix
+	•	Count negatives in matrix
+	•	Russian Doll Envelopes
+
+
+8️⃣ Backtracking
+
+Questions:
+	•	Permutations
+	•	Combination Sum I / II
+	•	Sudoku Solver
+	•	N-Queens
+	•	Restore IP Addresses
+
+
+PHASE 4 — GRAPH ALGORITHMS (Very heavy) :
+-----------------------------------------
+
+9️⃣ DFS (Depth First Search)
+
+Covered:
+	•	Graph traversal
+	•	Path tracking
+	•	Cycle detection (directed & undirected)
+	•	Connected components
+	•	SCC (Kosaraju)
+	•	Eulerian circuit
+
+Questions:
+	•	Round Trip
+	•	Cycle detection
+	•	SCC problems
+
+
+🔟 BFS (Breadth First Search)
+
+Covered:
+	•	Level order traversal
+	•	Shortest path in grid
+	•	Multi-source BFS
+	•	Path reconstruction
+	•	BFS vs DFS memory tradeoff
+
+Questions:
+	•	Binary matrix shortest path
+	•	Word ladder
+	•	Tree level order
+	•	Minimum depth
+
+
+1️⃣1️⃣ Shortest Path Algorithms
+
+	•	Dijkstra (BFS + Heap)
+	•	Bellman-Ford
+	•	Floyd-Warshall
+	•	Binary lifting (Planet Queries)
+
+
+PHASE 5 — UNION FIND / TOPOLOGY :
+---------------------------------
+
+1️⃣2️⃣ Union-Find (Disjoint Set)
+
+Covered:
+	•	Path compression
+	•	Union by rank
+	•	Ackermann complexity
+
+Questions:
+	•	Number of Islands
+	•	Kruskal’s MST
+	•	Connectivity queries
+
+
+1️⃣3️⃣ Topological Sorting
+
+Questions:
+	•	Course Schedule
+	•	Alien Dictionary
+	•	Job Scheduling
+	•	Parallel Courses
+
+
+PHASE 6 — TREES (Very strong) : ⭐⭐⭐⭐⭐
+-------------------------------
+
+Covered:
+	•	Traversals (all)
+	•	BST validation
+	•	LCA
+	•	Diameter
+	•	Path sum
+	•	Distance K
+	•	Tree DP
+	•	AVL & Red-Black Trees (theory)
+
+
+PHASE 7 — STRINGS (Large section) :
+-----------------------------------
+
+Algorithms:
+	•	KMP
+	•	Manacher
+	•	Rolling Hash
+
+Question types:
+	•	Palindromes
+	•	Anagrams
+	•	Substrings
+	•	Word Break
+	•	Interleaving String
+	•	Smallest subsequence
+	•	Repeated patterns
+
+
+PHASE 8 — ADVANCED DATA STRUCTURES :
+------------------------------------
+
+Covered:
+	•	Segment Tree
+	•	Fenwick Tree (BIT)
+	•	Trie
+	•	Heap
+	•	LRU / LFU Cache
+	•	Min Stack
+
+
+PHASE 9 — SYSTEMS & CONCURRENCY (Non-DSA) :
+-------------------------------------------
+
+Topics:
+	•	Node.js event loop
+	•	Single-threaded concurrency
+	•	Goroutines vs threads
+	•	Redis atomicity
+	•	WaitGroups
+	•	Panic / recover
+	•	Error handling in Go
+
+
+PHASE 10 — MISC / TRICK PROBLEMS :
+----------------------------------
+
+	•	Celebrity problem
+	•	Cycle sort
+	•	First missing positive
+	•	Lower bound tricks
+	•	Real estate broker problem
+	•	Mathematical observations
+
+	- segment tree : https://leetcode.com/problems/fruits-into-baskets-iii/editorial/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

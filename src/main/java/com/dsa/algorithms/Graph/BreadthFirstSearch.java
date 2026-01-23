@@ -1,6 +1,4 @@
-package com.dsa.algorithms.Graph.BFS;
-
-import com.dsa.algorithms.Graph.Vertex.Vertex;
+package com.dsa.algorithms.Graph;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

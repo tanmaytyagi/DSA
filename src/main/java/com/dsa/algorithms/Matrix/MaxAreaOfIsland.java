@@ -1,4 +1,4 @@
-package com.dsa.algorithms.Graph.MAZE;
+package com.dsa.algorithms.Matrix;
 
 public class MaxAreaOfIsland {
 

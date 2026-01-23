@@ -1,4 +1,4 @@
-package com.dsa.algorithms.DynamicProgramming.DpOnGrids;
+package com.dsa.algorithms.Matrix;
 import java.util.Arrays;
 
 /**

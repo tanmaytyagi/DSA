@@ -1,6 +1,4 @@
-package com.dsa.algorithms.Graph.DFS;
-
-import com.dsa.algorithms.Graph.Vertex.Vertex;
+package com.dsa.algorithms.Graph;
 
 import java.util.Stack;
 

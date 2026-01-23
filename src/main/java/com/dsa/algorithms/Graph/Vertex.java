@@ -1,4 +1,4 @@
-package com.dsa.algorithms.Graph.Vertex;
+package com.dsa.algorithms.Graph;
 
 import java.util.ArrayList;
 import java.util.List;

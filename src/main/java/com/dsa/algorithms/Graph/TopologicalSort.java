@@ -1,9 +1,8 @@
-package com.dsa.algorithms.Graph.TopologicalSort;
+package com.dsa.algorithms.Graph;
 import java.util.List;
 import java.util.Stack;
 
-import com.dsa.algorithms.Graph.Vertex.Vertex;
-import static com.dsa.algorithms.Graph.Vertex.Vertex.createDAG;
+import static com.dsa.algorithms.Graph.Vertex.createDAG;
 
 
 public class TopologicalSort {

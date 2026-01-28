@@ -3,6 +3,11 @@ package com.dsa.util;
 
 @SuppressWarnings("all")
 public class StringUtil {
+
+    public static String reverse(String input) {
+        return new StringBuilder(input).reverse().toString();
+    }
+
     public static void main(String[] args) {
 
         // ================== CHARACTER ARRAYS ==================
@@ -14,6 +19,9 @@ public class StringUtil {
         // ================== STRING ==================
 
         String s = "abc";
+        String p = reverse(s);
+
+        System.out.println(p);
 
         // length of the String
         int n = s.length();
@@ -31,6 +39,8 @@ public class StringUtil {
         // convert to char array
         char[] arr = s.toCharArray();
 
+        // substring using startIdx and endIdx
+        String subString = s.substring(0,2);
 
 
 

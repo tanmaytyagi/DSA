@@ -35,7 +35,7 @@ public class CoinChange {
         int n = c.length;
 
         int[][] dp = new int[n+1][t+1];
-        for(int i = 0 ; i < n + 1 ; i++)  dp[i][0] = 0;
+        for(int i = 0 ; i < n + 1 ; i++) dp[i][0] = 0;
         for(int j = 0 ; j < t + 1 ; j++) dp[0][j] = -1;
 
         for(int i = 1 ; i < n + 1 ; i++) {

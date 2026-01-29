@@ -43,6 +43,12 @@ public class ArrayUtil {
         // print the array
         System.out.println(Arrays.toString(a0));
 
+        // sum of all element
+        int sum = Arrays.stream(a0).sum();
+
+        // max of all element
+        int max = Arrays.stream(a0).max().getAsInt();
+
 
 
 

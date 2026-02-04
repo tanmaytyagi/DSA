@@ -1,0 +1,69 @@
+Graph Terminologies :
+---------------------
+
+Graph = Nodes + Edges
+
+1. undirected graph
+2. undirected cyclic graph
+3. directed graph
+4. directed cyclic graph
+5. directed acyclic graph (DAG)
+
+Path = contains a lot of nodes and each of them are reachable
+
+NOTE : a node cannot appear twice in a path !!
+
+Degree of a Node = number of edges attached to it (Undirected graph)
+
+NOTE : sum of all degrees of nodes = 2 * total number of edges (Undirected graph)
+
+Indegree of a Node = number of incoming edges from a node (Directed graph)
+
+Outdegree of a Node = number of outgoing edges from a node (Directed graph)
+
+Weighted edge = an edge assigned a specific numerical value, known as a weight or cost
+
+-------------------------------------------------------------------------------------
+
+How to Store graph in Java : (directed and undirected both)
+----------------------------
+
+1. Adjacency Matrix
+2. Adjacency List
+
+lets consider 1-based indexing graph :
+
+- Adjacency Matrix graph = Integer[n+1][n+1], n = number of nodes
+  here, graph[i][j] = 1, => there is edge from i to j (i -> j)
+        graph[i][j] = 0, => no edge from i to j
+
+  in weighted graph, graph[i][j] contains the weight from i -> j
+
+NOTE : space complexity = O(n^2)
+
+- Adjacency List graph = ArrayList<ArrayList<Integer>> graph;
+  here, i -> x, where x belongs to graph.get(i) list
+
+  in weighted graph => ArrayList<ArrayList<Pair<Integer, Integer>>> graph;
+
+NOTE : space complexity = O(V+E) but in a sparse graph, i.e. E << V^2
+       Thus, we always use adjacency list representation of graph
+
+-------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

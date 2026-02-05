@@ -30,7 +30,7 @@ public class TrappingRainWater {
 
 
     // two pointer approach
-    public static int maxRainWaterTrapped2(int[] height) {
+    public static int maxRainWaterTrappedOptimal(int[] height) {
         int n =  height.length;
         int i = 0;
         int j = n - 1;
@@ -66,6 +66,6 @@ public class TrappingRainWater {
     public static void main(String[] args) {
         int[] height = {0,1,0,2,1,0,1,3,2,1,2,1};
         System.out.println(maxRainWaterTrapped(height));
-        System.out.println(maxRainWaterTrapped2(height));
+        System.out.println(maxRainWaterTrappedOptimal(height));
     }
 }

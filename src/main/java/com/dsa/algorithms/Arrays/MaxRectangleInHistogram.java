@@ -50,7 +50,7 @@ public class MaxRectangleInHistogram {
         return maxArea;
     }
 
-    public static int maxAreaRectangle2(int[] height) {
+    public static int maxAreaRectangleOptimal(int[] height) {
         int n = height.length;
         Stack<Integer> stack = new Stack<>();
         int maxArea = 0;
@@ -77,6 +77,6 @@ public class MaxRectangleInHistogram {
     public static void main(String[] args) {
         int[] height = {2,1,5,6,2,3};
         System.out.println(maxAreaRectangle(height));
-        System.out.println(maxAreaRectangle2(height));
+        System.out.println(maxAreaRectangleOptimal(height));
     }
 }

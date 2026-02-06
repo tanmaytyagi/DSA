@@ -1,11 +1,14 @@
 package com.dsa.algorithms.DynamicProgramming.UnboundedKnapsack;
 
+// You are given an integer array coins representing coins of different denominations
+// and an integer amount representing a total amount of money.
 
-/**
- * Given an integer total that represents the target amount of money and a list of integers coins that represents different coin denominations, find the minimum number of coins required to make up the total amount. If it’s impossible to achieve the target amount using the given coins, return -1. If the target amount is 0, return 0.
- */
+// Return the "fewest number" of coins that you need to make up that amount.
+// If that amount of money cannot be made up by any combination of the coins, return -1.
 
-public class CoinChange {
+// You may assume that you have an infinite number of each kind of coin.
+
+public class CoinChange1 {
 
     // recursive solution
     public static int coinChange(int[] c, int t, int i) {

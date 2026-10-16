@@ -41,32 +41,5 @@ public class StringUtil {
 
         // substring using startIdx and endIdx
         String subString = s.substring(0,2);
-
-
-
-
-        // ================== STRING BUILDER ==================
-
-        StringBuilder sb = new StringBuilder();
-
-        // append
-        sb.append('c');
-        sb.append("hello");
-        sb.append(123);
-
-        // length
-        int l = sb.length();
-
-        // char at index
-        char c = sb.charAt(0);
-
-        // modify at index
-        sb.setCharAt(0, 'A');
-
-        // convert to string
-        String result = sb.toString();
-
-        // reverse
-        sb.reverse();
     }
 }
